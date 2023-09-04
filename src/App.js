@@ -11,7 +11,7 @@ import {
 import PageNotFound404 from "./components/Error404";
 // basename="/Clone-Youtube/
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/Clone-Youtube/">
     <Box sx={{ backgroundColor: "#012b31" }}>
       <Navbar />
       <Routes>
